@@ -14,13 +14,13 @@
 
     ZMK_MACRO(email,
       wait-ms = <30>;
-      tap-ms = <40>;
+      tap-ms = <20>;
       bindings = <&kp I &kp V &kp A &kp N &kp DOT &kp K &kp R &kp Y &kp U &kp K &kp O &kp V &kp AT &kp B &kp A &kp Y &kp E &kp R &kp DOT &kp C &kp O &kp M>;
     )
 
     ZMK_MACRO(rpipe,
       wait-ms = <30>;
-      tap-ms = <40>;
+      tap-ms = <20>;
       bindings = <&kp SPACE &kp PRCNT &kp GT &kp PRCNT &kp SPACE>;
     )
   };
@@ -36,7 +36,7 @@
 &kp TAB    &kp Q   &kp W   &kp E    &kp R    &kp T                        &kp Y    &kp U    &kp I      &kp O    &kp P     &kp MINUS
 &kp LCTRL  &kp A   &kp S   &kp D    &kp F    &kp G                        &kp H    &kp J    &kp K      &kp L    &kp SEMI     &kp APOS
 &kp LSHFT  &kp Z   &kp X   &kp C    &kp V    &kp B  &kp LBKT     &kp RBKT &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RET
-            &kp ESC &kp LGUI    &kp LALT  &kp SPACE              &mo 2 &kp BSPC &kp DEL &mo 1
+            &mt LC(LSHFT) ESC &kp LGUI    &kp LALT  &kp SPACE              &mo 2 &kp BSPC &kp DEL &mo 1
             >;
         };
 
